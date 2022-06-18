@@ -1,0 +1,20 @@
+.logo{
+    width: 20%;
+}
+.card .card-body{
+    max-width: 921px;
+}
+.card .card-body .reports{
+    display: flex; 
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+    .logo { 
+        width: 45% !important;
+    }
+    .card .card-body .reports{
+        font-size: 12px;
+    }
+}
